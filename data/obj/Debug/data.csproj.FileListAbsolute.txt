@@ -1,0 +1,5 @@
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\data\bin\Debug\data.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\data\bin\Debug\data.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\data\obj\Debug\data.csprojResolveAssemblyReference.cache
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\data\obj\Debug\data.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\data\obj\Debug\data.pdb

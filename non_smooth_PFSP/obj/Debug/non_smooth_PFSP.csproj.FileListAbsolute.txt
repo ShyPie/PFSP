@@ -1,0 +1,10 @@
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\bin\Debug\non_smooth_PFSP.exe.config
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\bin\Debug\non_smooth_PFSP.exe
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\bin\Debug\non_smooth_PFSP.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\bin\Debug\algorithms.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\bin\Debug\data.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\bin\Debug\algorithms.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\bin\Debug\data.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\obj\Debug\non_smooth_PFSP.csprojResolveAssemblyReference.cache
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\obj\Debug\non_smooth_PFSP.exe
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\obj\Debug\non_smooth_PFSP.pdb
