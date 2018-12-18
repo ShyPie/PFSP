@@ -58,6 +58,10 @@
       <Project>{7985cb6f-8347-4ef0-93fb-a18fcc9c5474}</Project>
       <Name>data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\generator\generator.csproj">
+      <Project>{fd10be90-764f-47de-9f9c-b869ba0fd598}</Project>
+      <Name>generator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -11,14 +11,17 @@ namespace data
         double GetMakespan();
         double GetMakespanWithPenalty();
         List<int> GetJobSequence();
-        void Perturbate(int jobId1, int jobId2);
+        void Perturbate(int index1, int index2);
         void InsertJob(int jobId, int index);
         void InsertJob2BestPlace(int jobId);
         void PushJob(int jobId);
         void RemoveJob(int jobId);
+        void ClearJobSequence();
         void FillJobSequence();
         Data GetData();
         void Sort();
+        double GetSumOfJobs();
+        IProblem Copy();
     }
 
     public class PFSP: IProblem
@@ -34,7 +37,7 @@ namespace data
 
         public double GetMakespan()
         {
-            return GetMakespan(m_data.Jobs.Count - 1, m_data.Machines - 1);
+            return GetMakespan(m_jobSequence.Count - 1, m_data.Machines - 1);
         }
 
         public double GetMakespan(int job, int machine)
@@ -64,7 +67,8 @@ namespace data
                 List<int> JobIdsAfterBreak = new List<int>() { 0 };
                 for (int j = 1; j < m_jobSequence.Count; ++j)
                 {
-                    if (GetMakespan(m_jobSequence[j], i - 1) > GetMakespan(m_jobSequence[j] - 1, i))
+                    //if (GetMakespan(m_jobSequence[j], i - 1) > GetMakespan(m_jobSequence[j] - 1, i))
+                    if (GetMakespan(j, i - 1) > GetMakespan(j - 1, i))
                     {
                        JobIdsAfterBreak.Add(j);
                     }
@@ -88,16 +92,14 @@ namespace data
        
         public List<int> GetJobSequence()
         {
-            return m_jobSequence;
+            return m_jobSequence.ToList();
         }
-        public void Perturbate(int jobId1, int jobId2)
+        public void Perturbate(int index1, int index2)
         {
-            var index1 = m_jobSequence.Find(id => { return id == jobId1; });
-            var index2 = m_jobSequence.Find(id => { return id == jobId2; });
-            m_jobSequence[index1] = jobId2;
-            m_jobSequence[index2] = jobId1;
+            int temp = m_jobSequence[index1];
+            m_jobSequence[index1] = m_jobSequence[index2];
+            m_jobSequence[index2] = temp;
         }
-
         public void InsertJob(int jobId, int index)
         {
             m_jobSequence.Insert(index, jobId);
@@ -105,7 +107,7 @@ namespace data
 
         public void InsertJob2BestPlace(int jobId)
         {
-            int positions = m_jobSequence.Count();
+            int positions = m_jobSequence.Count() + 1;
             int bestPosition = 0;
             InsertJob(jobId, 0);
             double bestMakespan = GetMakespanWithPenalty();
@@ -132,6 +134,11 @@ namespace data
         public void RemoveJob(int jobId)
         {
             m_jobSequence.Remove(jobId);
+        }
+
+        public void ClearJobSequence()
+        {
+            m_jobSequence.Clear();
         }
 
         public Data GetData()
@@ -176,6 +183,22 @@ namespace data
                 var duration2 = m_data.Jobs[b].GetSumOfTasks();
                 return duration2.CompareTo(duration1);
             });
+        }
+        public double GetSumOfJobs()
+        {
+            double sum = 0;
+            foreach (var job in m_data.Jobs)
+            {
+                sum += job.GetSumOfTasks();
+            }
+            return sum;
+        }
+
+        public IProblem Copy()
+        {
+            var copy = new PFSP(m_data);
+            copy.m_jobSequence = m_jobSequence.ToList();
+            return copy;
         }
     }
 }

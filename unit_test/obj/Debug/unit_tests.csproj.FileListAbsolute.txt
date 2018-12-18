@@ -1,0 +1,11 @@
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\unit_test\bin\Debug\unit_test.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\unit_test\bin\Debug\unit_test.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\unit_test\bin\Debug\algorithms.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\unit_test\bin\Debug\data.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\unit_test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\unit_test\bin\Debug\algorithms.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\unit_test\bin\Debug\data.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\unit_test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\unit_test\obj\Debug\unit_tests.csprojResolveAssemblyReference.cache
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\unit_test\obj\Debug\unit_test.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\unit_test\obj\Debug\unit_test.pdb

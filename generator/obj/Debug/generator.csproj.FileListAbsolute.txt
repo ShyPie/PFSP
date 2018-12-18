@@ -1,0 +1,7 @@
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\generator\bin\Debug\generator.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\generator\bin\Debug\generator.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\generator\bin\Debug\data.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\generator\bin\Debug\data.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\generator\obj\Debug\generator.csprojResolveAssemblyReference.cache
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\generator\obj\Debug\generator.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\generator\obj\Debug\generator.pdb
