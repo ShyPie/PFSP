@@ -10,3 +10,5 @@ C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\o
 C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\obj\Debug\non_smooth_PFSP.pdb
 C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\bin\Debug\generator.dll
 C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\bin\Debug\generator.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\bin\Debug\report.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\non_smooth_PFSP\bin\Debug\report.pdb

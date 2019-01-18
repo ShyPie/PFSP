@@ -1,0 +1,7 @@
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\algorithms\bin\Release\algorithms.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\algorithms\bin\Release\algorithms.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\algorithms\bin\Release\data.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\algorithms\bin\Release\data.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\algorithms\obj\Release\algorithms.csprojResolveAssemblyReference.cache
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\algorithms\obj\Release\algorithms.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\algorithms\obj\Release\algorithms.pdb

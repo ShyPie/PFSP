@@ -20,6 +20,7 @@ namespace data
         void FillJobSequence();
         Data GetData();
         void Sort();
+        void SortBySumOfMoments();
         double GetSumOfJobs();
         IProblem Copy();
     }
@@ -33,6 +34,7 @@ namespace data
         {
             m_data = data;
             m_jobSequence = new List<int>();
+            FillJobSequence();
         }
 
         public double GetMakespan()
@@ -182,6 +184,17 @@ namespace data
                 var duration1 = m_data.Jobs[a].GetSumOfTasks();
                 var duration2 = m_data.Jobs[b].GetSumOfTasks();
                 return duration2.CompareTo(duration1);
+            });
+        }
+
+        public void SortBySumOfMoments()
+        {
+            m_jobSequence.Sort((a, b) =>
+            {
+                //sum = AVG(i) + STD(i) + abs(SKE(i))
+                var sum1 = m_data.Jobs[a].GetAVG() + m_data.Jobs[a].GetSTD() + m_data.Jobs[a].GetSKE();
+                var sum2 = m_data.Jobs[b].GetAVG() + m_data.Jobs[b].GetSTD() + m_data.Jobs[b].GetSKE();
+                return sum2.CompareTo(sum1);
             });
         }
         public double GetSumOfJobs()

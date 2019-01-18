@@ -17,9 +17,32 @@ namespace algorithms
         }
     }
 
-    public class BiasedRendomization: IAlgorithm
+    public class SortByTime : IAlgorithm
     {
-        public BiasedRendomization() { }
+        public SortByTime() { }
+
+        public IProblem Run(IProblem problem)
+        {
+            problem = problem.Copy();
+            problem.Sort();
+            return problem;
+        }
+    }
+
+    public class SortByMoments : IAlgorithm
+    {
+        public SortByMoments() { }
+        public IProblem Run(IProblem problem)
+        {
+            problem = problem.Copy();
+            problem.SortBySumOfMoments();
+            return problem;
+        }
+    }
+
+    public class BiasedRandomization: IAlgorithm
+    {
+        public BiasedRandomization() { }
 
         public IProblem Run(IProblem problem)
         {
@@ -52,15 +75,17 @@ namespace algorithms
     public class NEH : IAlgorithm
     {
         private IAlgorithm m_randomization;
-        public NEH(IAlgorithm randomization = null)
+        private IAlgorithm m_sort;
+        public NEH(IAlgorithm randomization = null, IAlgorithm sort = null)
         {
             m_randomization = randomization != null ? randomization : new Stub();
+            m_sort = sort != null ? sort : new SortByTime();
         }
 
         public IProblem Run(IProblem problem)
         {
             problem = problem.Copy();
-            problem.Sort();
+            problem = m_sort.Run(problem);
             problem = m_randomization.Run(problem);
             List<int> sortedSequence = problem.GetJobSequence();
             problem.ClearJobSequence();

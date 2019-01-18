@@ -62,6 +62,10 @@
       <Project>{fd10be90-764f-47de-9f9c-b869ba0fd598}</Project>
       <Name>generator</Name>
     </ProjectReference>
+    <ProjectReference Include="..\report\report.csproj">
+      <Project>{24035356-16e9-4966-98b7-5625713d1811}</Project>
+      <Name>report</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

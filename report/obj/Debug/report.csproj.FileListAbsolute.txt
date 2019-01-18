@@ -1,0 +1,10 @@
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\report\bin\Debug\report.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\report\bin\Debug\report.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\report\bin\Debug\algorithms.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\report\bin\Debug\data.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\report\bin\Debug\algorithms.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\report\bin\Debug\data.pdb
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\report\obj\Debug\report.csprojResolveAssemblyReference.cache
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\report\obj\Debug\report.csproj.ResolveComReference.cache
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\report\obj\Debug\report.dll
+C:\Users\vshulanx\Documents\Visual Studio 2015\non_smooth_PFSP\report\obj\Debug\report.pdb
