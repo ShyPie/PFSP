@@ -1,8 +1,8 @@
 # PFSP
 
-This repository is dedicated to research work about solving Permutation Flow Shop Problem.
+This is the research work about solving non-smooth Permutation Flow Shop Problem.
 
-To be honest, it's more for non-smooth Permutation Flow Shop Problem, but implemented algorithms can be used for solvation PFSP tasks.
+The implemented algorithms can be applied for solvation classic PFSP tasks.
 
 ### Implemented algorithms
 1) classic NEH
