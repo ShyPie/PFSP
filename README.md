@@ -2,7 +2,7 @@
 
 This is the research work about solving non-smooth Permutation Flow Shop Problem.
 
-The implemented algorithms can be applied for solvation classic PFSP tasks.
+The implemented algorithms presented below can be applied for solution of given problem and for solution of classical PFSP.
 
 ### Implemented algorithms
 1) classic NEH
